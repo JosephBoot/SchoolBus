@@ -14,6 +14,7 @@ comments: false
           <input type="text" class="form-control form-control-lg" id="entry.810989529" placeholder="Enter first name" required>
           <small id="emailHelp" class="form-text text-muted">This will be what is shown in the gallery.</small>
         </div>
+      </div>
       <div class="col-sm">
         <div class="form-group">
           <label for="entry.810989529">Last Name</label>
@@ -36,6 +37,14 @@ comments: false
           <label for="entry.810989529">Address</label>
           <input type="text" class="form-control form-control-lg" id="entry.810989529" aria-describedby="emailHelp" placeholder="Enter postal address">
           <small id="emailHelp" class="form-text text-muted">For GiftAid. Leave blank to opt out.</small>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <div class="form-group">
+          <label for="entry.810989529">Your picture request</label>
+          <input type="text" class="form-control form-control-lg" id="entry.810989529" placeholder="Please provide full description">
         </div>
       </div>
     </div>
