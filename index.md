@@ -11,6 +11,10 @@ The minibus costs school £5000.00 each school year and I, amongst other childre
 
 Our school have set the **2022 Challenge** which within the last month before the end of the school year they are encouraging the children to raise **at least £20.22**!
 
+It would be awesome if you could help me & the school reach our targets by donating any little amount you can afford, whether that be 20p, 50p, £1 or more!
+
+Thank you for visiting and look forward to drawing your idea.
+
 ### How am I going to raise the money?
 After I have received your sponsorship and donation I will attempt to draw a picture of your choosing & post it on my website for the world to see. My favourite things to draw at the moment are characters from Sonic The Hedgehog, Super Mario, Minecraft and Among Us. But I am up for a challenge, so please don't let these things limit your choices of things for me to draw.
 
