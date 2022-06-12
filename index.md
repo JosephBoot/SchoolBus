@@ -5,7 +5,7 @@ title: Home
 
 ## Welcome to my fundraising page
 
-I am raising money for my school [Birkenshaw C.E. (C) Primary School](https://www.birkenshawprimary.org.uk/) to support the funding of the annual leasing of the minibus. The minibus has been a fabulous addition to school and benefited children across all year groups. 
+I am raising money for my school <a href="https://www.birkenshawprimary.org.uk/" target="_blank">Birkenshaw C.E. (C) Primary School</a> to support the funding of the annual leasing of the minibus. The minibus has been a fabulous addition to school and benefited children across all year groups. 
 
 The minibus costs school £5000.00 each school year and I, amongst other children in school are raising a small amount money each with the hope that it collectively contributes towards a larger amount to keep the minibus going for our next school year.
 
@@ -16,20 +16,16 @@ After I have received your sponsorship and donation I will attempt to draw a pic
 
 ### How can you sponsor me?
 1. Complete the sponsorship form with your Name, Address (for GiftAid) and your picture request.
-2. Send your donation to my Dads [PayPal.me page](https://paypal.me/andyboot).
+2. Send your donation to my Dads <a href="https://paypal.me/andyboot" target="_blank">PayPal.me page</a>.
 3. I will draw & upload your requested picture and post here along with your name.
 
 ### Gallery
 
+{% if site.posts and site.posts.size != 0 %}
+
 <!-- Posts Index
 ================================================== -->
 <section class="recent-posts">
-
-    <div class="section-title">
-
-        <h2><span>All Stories</span></h2>
-
-    </div>
 
     <div class="row listrecent">
 
@@ -42,3 +38,9 @@ After I have received your sponsorship and donation I will attempt to draw a pic
     </div>
 
 </section>
+
+{% else %}
+
+No pictures just yet, check again later. Or, why not be my first sponsor!?
+
+{% endif %}
