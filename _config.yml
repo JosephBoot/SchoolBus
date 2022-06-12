@@ -4,3 +4,5 @@ name: "Joseph Boot - Fundraising Page"
 title: "Joseph Boot - Fundraising Page"
 description: "A fundraising page for Birkenshaw Primary School to raise money for the annual costs of their school bus."
 remote_theme: wowthemesnet/mediumish-theme-jekyll
+
+include: ["_pages"]
