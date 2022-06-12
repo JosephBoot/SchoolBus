@@ -1,0 +1,8 @@
+body { background-color: #95f3ff; }
+a { color: #6200ff; }
+a:hover { color: #6200ff; text-decoration: underline; }
+
+.mediumnavigation,
+.footer {
+    background: rgba(255, 255, 255, .5);
+}
