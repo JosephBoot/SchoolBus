@@ -10,7 +10,7 @@ comments: false
 <script type="text/javascript">
 $('#gform').on('submit', function(e) {
   $('#gform *').fadeOut(2000);
-  $('#gform').prepend('Thank you for your sponsorship! If you haven't already, please send your donation of any amount to my Dads <a href="https://paypal.me/andyboot" target="_blank">PayPal (click here)</a>.');
+  $('#gform').prepend("Thank you for your sponsorship! If you haven't already, please send your donation of any amount to my Dads <a href='https://paypal.me/andyboot' target='_blank'>PayPal (click here)</a>.");
   });
 </script>
 
