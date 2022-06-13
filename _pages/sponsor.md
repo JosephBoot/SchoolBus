@@ -8,13 +8,31 @@ comments: false
 
 <script type="text/javascript">var submitted=false;</script>
 <script type="text/javascript">
-$('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(2000);
-  $('#gform').prepend("Thank you for your sponsorship! If you haven't already, please send your donation of any amount to my Dads <a href='https://paypal.me/andyboot' target='_blank'>PayPal (click here)</a>.");
+//$('#gform').on('submit', function(e) {
+//  $('#gform *').fadeOut(2000);
+//  $('#gform').prepend("Thank you for your sponsorship! If you haven't already, please send your donation of any amount to my Dads <a href='https://paypal.me/andyboot' target='_blank'>PayPal (click here)</a>.");
+//  });
+  
+  
+window.addEventListener("load", function() {
+  const form = document.getElementById('gform');
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+      $('#gform *').fadeOut(2000);
+      $('#gform').prepend("Thank you for your sponsorship! If you haven't already, please send your donation of any amount to my Dads <a href='https://paypal.me/andyboot' target='_blank'>PayPal (click here)</a>.");
+    })
   });
+});  
 </script>
 
-<form name="gform" id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwRxWwKMA9E_fFmc_htUDIx8hB4HGCy9awSb-wa9jKRJUo_4qMR9PT9s-MbjGyT1SUW/exec" onsubmit="submitted=true;" target="hidden_iframe">
+<form name="gform" id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwRxWwKMA9E_fFmc_htUDIx8hB4HGCy9awSb-wa9jKRJUo_4qMR9PT9s-MbjGyT1SUW/exec">
   <div class="container">
     <div class="row">
       <div class="col-sm">
