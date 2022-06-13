@@ -11,3 +11,7 @@ a:hover { color: #6200ff; text-decoration: underline; }
 .listrecent h2.card-title {
     margin-bottom: 0;   
 }
+
+.mainheading h1.sitetitle {
+    font-family: 'Luckiest Guy', cursive;
+}
