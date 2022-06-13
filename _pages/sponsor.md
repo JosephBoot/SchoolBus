@@ -14,7 +14,7 @@ $('#gform').on('submit', function(e) {
   });
 </script>
 
-<form name="gform" id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwRxWwKMA9E_fFmc_htUDIx8hB4HGCy9awSb-wa9jKRJUo_4qMR9PT9s-MbjGyT1SUW/exec" onsubmit="submitted=true;">
+<form name="gform" id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwRxWwKMA9E_fFmc_htUDIx8hB4HGCy9awSb-wa9jKRJUo_4qMR9PT9s-MbjGyT1SUW/exec" onsubmit="submitted=true;" target="hidden_iframe">
   <div class="container">
     <div class="row">
       <div class="col-sm">
