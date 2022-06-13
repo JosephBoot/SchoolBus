@@ -14,28 +14,28 @@ $('#gform').on('submit', function(e) {
   });
 </script>
 
-<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdfAj5JTNrrB9z54NLeJS0T6KyKp25OVQswLnB01tLmKXKgEA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+<form name="gform" id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwRxWwKMA9E_fFmc_htUDIx8hB4HGCy9awSb-wa9jKRJUo_4qMR9PT9s-MbjGyT1SUW/exec" onsubmit="submitted=true;">
   <div class="container">
     <div class="row">
       <div class="col-sm">
         <div class="form-group">
-          <label for="entry.1973658680">First Name</label>
-          <input type="text" class="form-control form-control-lg" id="entry.1973658680" placeholder="Enter first name" required>
+          <label for="FirstName">First Name</label>
+          <input type="text" class="form-control form-control-lg" id="FirstName" name="FirstName" placeholder="Enter first name" required>
           <small id="emailHelp" class="form-text text-muted">This will be what is shown in the gallery.</small>
         </div>
       </div>
       <div class="col-sm">
         <div class="form-group">
-          <label for="entry.1616968964">Last Name</label>
-          <input type="text" class="form-control form-control-lg" id="entry.1616968964" placeholder="Enter last name" required>
+          <label for="LastName">Last Name</label>
+          <input type="text" class="form-control form-control-lg" id="LastName" name="LastName" placeholder="Enter last name" required>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-sm">
         <div class="form-group">
-          <label for="entry.1746644615">Email address</label>
-          <input type="email" class="form-control form-control-lg" id="entry.1746644615" aria-describedby="emailHelp" placeholder="Enter email" required>
+          <label for="EmailAddress">Email address</label>
+          <input type="email" class="form-control form-control-lg" id="EmailAddress" name="EmailAddress" aria-describedby="emailHelp" placeholder="Enter email" required>
           <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
         </div>
       </div>
@@ -43,8 +43,8 @@ $('#gform').on('submit', function(e) {
     <div class="row">
       <div class="col-sm">
         <div class="form-group">
-          <label for="entry.916397285">Address</label>
-          <input type="text" class="form-control form-control-lg" id="entry.916397285" aria-describedby="emailHelp" placeholder="Enter postal address">
+          <label for="Address">Address</label>
+          <input type="text" class="form-control form-control-lg" id="Address" name="Address" aria-describedby="emailHelp" placeholder="Enter postal address">
           <small id="emailHelp" class="form-text text-muted">For GiftAid. Leave blank to opt out.</small>
         </div>
       </div>
@@ -52,8 +52,8 @@ $('#gform').on('submit', function(e) {
     <div class="row">
       <div class="col-sm">
         <div class="form-group">
-          <label for="entry.87928567">Your picture request</label>
-          <input type="text" class="form-control form-control-lg" id="entry.87928567" placeholder="Please provide full description">
+          <label for="PictureRequest">Your picture request</label>
+          <input type="text" class="form-control form-control-lg" id="PictureRequest" name="PictureRequest" placeholder="Please provide full description">
         </div>
       </div>
     </div>
