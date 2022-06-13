@@ -15,3 +15,32 @@ a:hover { color: #6200ff; text-decoration: underline; }
 .mainheading h1.sitetitle {
     font-family: 'Luckiest Guy', cursive;
 }
+
+
+.card {
+    overflow: hidden;
+}
+
+.card-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255,255,255,0.8);
+    transform: translateY(-100%);  
+    transition: transform 500ms;
+}
+
+.card-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(100%);  
+    background-color: rgba(255,255,255,0.8)!important;    
+}
+
+.card:hover .card-body,
+.card:hover .card-footer {
+    transform: translateY(0%);  
+}
