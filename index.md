@@ -19,7 +19,7 @@ Thank you for visiting and look forward to drawing your idea.
 After I have received your sponsorship and donation I will attempt to draw a picture of your choosing & post it on my website for the world to see. My favourite things to draw at the moment are characters from Sonic The Hedgehog, Super Mario, Minecraft and Among Us. But I am up for a challenge, so please don't let these things limit your choices of things for me to draw.
 
 ### How can you sponsor me?
-1. Complete the <a href="/schoolbus/sponsor/">sponsorship form</a> with your Name, Address (for GiftAid) and your picture request.
+1. Complete the <a href="/schoolbus/sponsor">sponsorship form</a> with your Name, Address (for GiftAid) and your picture request.
 2. Send your donation to my Dads <a href="https://paypal.me/andyboot" target="_blank">PayPal.me page</a>.
 3. I will draw & upload your requested picture and post here along with your name.
 
