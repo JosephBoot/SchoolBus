@@ -6,5 +6,7 @@ description: "A fundraising page for Birkenshaw Primary School to raise money fo
 remote_theme: wowthemesnet/mediumish-theme-jekyll
 
 goalcurrent: £0.00
+goalcurrentpercentage: 0%
+goaltarget: £20.22
 
 include: ["_pages"]
