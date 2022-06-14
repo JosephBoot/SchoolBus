@@ -47,3 +47,7 @@ a:hover { color: #6200ff; text-decoration: underline; }
 .card:hover .card-footer {
     transform: translateY(0%);  
 }
+
+span.post-name, span.post-date, span.author-meta {
+    display: block;
+}
