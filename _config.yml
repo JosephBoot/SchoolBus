@@ -5,6 +5,7 @@ title: "Joseph Boot - Fundraising Page"
 description: "A fundraising page for Birkenshaw Primary School to raise money for the annual costs of their school bus."
 remote_theme: wowthemesnet/mediumish-theme-jekyll
 
+background_colour: #95f3ff
 goalcurrent: £0.00
 goalcurrentpercentage: 0%
 goaltarget: £20.22
