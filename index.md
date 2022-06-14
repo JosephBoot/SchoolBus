@@ -5,6 +5,8 @@ title: Home
 
 ## Welcome to my fundraising page
 
+Hello! I'm Joseph and I'm 7 years old.
+
 I am raising money for my school <a href="https://www.birkenshawprimary.org.uk/" target="_blank">Birkenshaw C.E. (C) Primary School</a> to support the funding of the annual leasing of the minibus. The minibus has been a fabulous addition to school and benefited children across all year groups. 
 
 The minibus costs school £5000.00 each school year and I, amongst other children in school are raising a small amount money each with the hope that it collectively contributes towards a larger amount to keep the minibus going for our next school year.
