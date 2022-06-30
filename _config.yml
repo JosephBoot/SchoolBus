@@ -6,8 +6,8 @@ description: "A fundraising page for Birkenshaw C.E. (C) Primary School to raise
 remote_theme: wowthemesnet/mediumish-theme-jekyll
 
 background_colour: "#95f3ff"
-goalcurrent: "£23.50"
-goalcurrentpercentage: "116%"
+goalcurrent: "£28.50"
+goalcurrentpercentage: "141%"
 goaltarget: "£20.22"
 
 include: ["_pages"]
